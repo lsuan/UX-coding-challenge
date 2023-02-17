@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #664de5;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(
+      203.72deg,
+      rgba(173, 228, 245, 0.7) 17.72%,
+      rgba(122, 115, 255, 0.7) 93.98%
+    ),
+    white;
+}
+
+.main {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  position: relative;
+  max-width: 28.125rem;
+  width: 100%;
+  height: 32.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.25rem;
+  margin: 1.5rem;
+  padding: 2rem;
+}
+
+.main > h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.main > a {
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+  width: 3.125rem;
+  height: 3.125rem;
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
